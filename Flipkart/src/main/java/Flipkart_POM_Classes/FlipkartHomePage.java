@@ -9,8 +9,11 @@ import org.openqa.selenium.support.PageFactory;
 public class FlipkartHomePage {
 
 	// Variable : WebElement : Flipkart Home Page
-	@FindBy (xpath="//button[@class='_2KpZ6l _2doB4z']")
-	WebElement exit;
+// 	@FindBy (xpath="//button[@class='_2KpZ6l _2doB4z']")
+// 	WebElement exit;
+	
+	@FindBy (xpath="//button[@class='_2KpZ6l _2doB4z']Satkar")
+	WebElement exitAkash;
 	
 	@FindBy (xpath = "//input[contains(@title,'Search for products')]")
 	private WebElement searchForProduct ;
